@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Users.Activity_Them_User">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM USERS"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F44336"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã User: "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtMaUser"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nhập mã "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ : "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edtHo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nhập họ" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nhập tên" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh: "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/edtNamSinh"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nhập năm sinh" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quê quán: "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/edtQueQuan"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nhập quê quán" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFEB3B"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Trở Về"
+        android:textAllCaps="true"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
